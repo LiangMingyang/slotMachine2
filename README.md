@@ -2,7 +2,7 @@ slotMachine2
 ============
 #描述
 
-想要看效果直接用chrome打开http://slot.wannakissyou.com即可（感觉不好看就多刷新几次）
+想要看效果直接用chrome打开`http://slot.wannakissyou.com`即可（感觉不好看就多刷新几次）
 
 2014年**软件学院**元旦晚会抽奖程序，使用webGL写的。为保证公平性，以MIT协议开源
 
