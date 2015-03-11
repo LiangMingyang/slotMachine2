@@ -8,9 +8,15 @@ html
         link(rel='stylesheet', href='/stylesheets/reset.css')
         link(rel='stylesheet', href='/stylesheets/style.css')
         script(type='text/javascript', src='/javascripts/three.min.js')
+        script(type='text/javascript', src='/javascripts/tween.min.js')
         script(type='text/javascript', src='/javascripts/jquery.min.js')
         script(type='text/javascript', src='/javascripts/CSS3DRenderer.js')
         script(type='text/javascript', src='/javascripts/action.js')
+        script(type='text/javascript', src='/javascripts/slot.js')
+        script(type='text/javascript', src='/javascripts/list.js')
+        audio#click(src="/audio/click.mp3")
+        audio#bg(src="/audio/bg.mp3",loop=true)
+        audio#run(src="/audio/running.mp3",loop=true)
+        audio#got(src="/audio/got.mp3",loop=true)
     body
-        p#log
-        //video(autoplay,loop,src="/video/background3.mp4")
+        video#video(autoplay,loop,src="/video/bg.mp4")

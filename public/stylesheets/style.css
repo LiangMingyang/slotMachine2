@@ -6,7 +6,7 @@
     font-family: 'Slackey';
     font-style: normal;
     font-weight: 400;
-    src: local('Slackey'), url(./fonts/Slackey.woff2) format('woff2');
+    src: local('Slackey'), url(/public/fonts/Slackey.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -115,6 +115,91 @@ canvas {
     text-shadow: 0 0 10px rgba(0,255,255,0.95);
 }
 
+.backGround {
+    width: 6000px;
+    height: 3000px;
+    /*box-shadow: 0px 0px 12px rgba(0,255,255,0.85);*/
+    /*border: 1px solid rgba(127,255,255,0.65);*/
+    background: radial-gradient(rgba(0, 0, 0, 1), rgba(255,255,255,0));
+    text-align: center;
+    display: table;
+}
+
 #log {
     color: red;
+}
+
+.name {
+    width: 480px;
+    height: 160px;
+    box-shadow: 0px 0px 12px rgba(0,255,255,0.85);
+    border: 1px solid rgba(127,255,255,0.65);
+    background-color: rgba(0,127,127, 0.65);
+    text-align: center;
+    display: table;
+}
+
+.name span {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Microsoft YaHei';
+    font-size: 148px;
+    font-weight: bold;
+    color: rgba(197, 255, 253, 0.75);
+    text-shadow: 0 0 10px rgba(229, 255, 167, 0.95);
+}
+
+.result {
+    width: 800px;
+    height: 600px;
+    box-shadow: 0px 0px 12px rgba(0,255,255,0.85);
+    border: 1px solid rgba(127,255,255,0.65);
+    background-color: rgba(0,127,127, 0.65);
+    text-align: center;
+    display: table;
+}
+
+.result p {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Microsoft YaHei';
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(197, 255, 253, 0.75);
+    text-shadow: 0 0 10px rgba(229, 255, 167, 0.95);
+}
+
+.result span {
+    position: absolute;
+    top : 20px;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: 'Microsoft YaHei';
+    font-size: 70px;
+    /*font-weight: bold;*/
+    color: rgba(255, 158, 57, 0.75);
+    text-shadow: 0 0 10px rgba(255, 244, 95, 0.95);
+    letter-spacing : 10px;
+}
+
+.sign {
+    width: 240px;
+    height: 160px;
+    box-shadow: 0px 0px 12px rgba(0,255,255,0.85);
+    border: 1px solid rgba(127,255,255,0.65);
+    background-color: rgba(0,127,127, 0.65);
+    text-align: center;
+    display: table;
+}
+
+.sign span {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Microsoft YaHei';
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(197, 255, 253, 0.75);
+    text-shadow: 0 0 10px rgba(229, 255, 167, 0.95);
 }
