@@ -42,11 +42,11 @@ release文件夹中是本地版本，进入这个文件夹即可
 
 有问题联系本人邮箱 lmysoar@hotmail.com
 
-##在线版本
+## 在线版本
 
 欢迎访问https://liangmingyang.github.io/slotMachine2/
 
-#鸣谢
+# 鸣谢
 
 感谢宋子明提供技术支持。
 
