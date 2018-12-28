@@ -4,7 +4,7 @@ slotMachine2
 
 # 描述
 
-想要看效果直接用chrome打开`http://slot.wannakissyou.com`即可（感觉不好看就多刷新几次）
+想要看效果直接用chrome打开`https://liangmingyang.github.io/slotMachine2/`即可（感觉不好看就多刷新几次）
 
 2014年**软件学院**元旦晚会抽奖程序，使用webGL写的。为保证公平性，以MIT协议开源
 
@@ -44,7 +44,7 @@ release文件夹中是本地版本，进入这个文件夹即可
 
 ##在线版本
 
-欢迎访问http://slot.wannakissyou.com
+欢迎访问https://liangmingyang.github.io/slotMachine2/
 
 #鸣谢
 
@@ -54,7 +54,7 @@ release文件夹中是本地版本，进入这个文件夹即可
 
 感谢周围同学对其提出的修改意见。
 
-#License
+# License
 
 The MIT License (MIT)
 
