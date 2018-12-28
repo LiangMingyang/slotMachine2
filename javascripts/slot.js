@@ -1,7 +1,13 @@
 /**
  * Created by 明阳 on 2014/12/22.
  */
-localStorage.unlucky = localStorage.unlucky || "{}";
+var myStorage = {}
+try {
+    myStorage = localStorage
+} catch (error) {
+    alert('我们不能使用localstorage，重新刷新网页将清楚历史数据')
+}
+myStorage.unlucky = myStorage.unlucky || "{}"
 function DataLength(fData)
 {
     var intLength=0
@@ -15,7 +21,7 @@ function DataLength(fData)
     return intLength
 }
 function getLuckyStar() {
-    var unlucky = JSON.parse(localStorage.unlucky);
+    var unlucky = JSON.parse(myStorage.unlucky);
     var try_cnt = 0;
 	var luckyStar ;
     var luckyName ;
@@ -43,7 +49,7 @@ function getLuckyStar() {
         }
     }while(unlucky[luckyStar]);
     unlucky[luckyStar] = 1;
-    localStorage.unlucky = JSON.stringify(unlucky);
+    myStorage.unlucky = JSON.stringify(unlucky);
     if(luckyName.length == 2) {
         luckyName = luckyName[0] + "&nbsp&nbsp"+ luckyName[1];
     }
